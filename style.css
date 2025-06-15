@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    gap: 147px;
+    color: white;
+    position: fixed;
+    padding: 31px; 
+}
+.logo{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu{
+    display: flex;
+    gap: 109px;
+    margin-top: 59px;
+    list-style: none;
+}
+.logo img{
+    width: 64px;
+    height: 64px;
+}
+.hero{
+    position: ;
+}
+.hero div{
+    position: absolute;
+}
