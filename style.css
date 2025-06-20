@@ -92,6 +92,32 @@ nav{
     font-weight: 700;
 }
 
+.fitur{
+    position: absolute;
+    display: flex;
+    color: white;
+    gap: 35px;
+    top: 90%;
+}
+.sub-fitur{
+    background-color: #607D03;
+    padding: 14px;
+    padding-bottom: 88px;
+    text-align: center;
+    display: flex ;
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+
+}
+
+.sub-fitur h1{
+    font-size: 32px;
+}
+.sub-fitur p{
+    font-size: 16px;
+}
+
 
 
 
