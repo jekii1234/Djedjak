@@ -53,15 +53,18 @@ nav{
     display: flex;
     gap: 147px;
     color: white;
-    position: fixed;
     padding: 31px; 
     z-index: 99;
+    width: 100vw;
+    justify-content: space-between;
+    
 }
 .logo{
     display: flex;
     font-size: 25px;
     justify-content: center;
     align-items: center;
+    
 
 }
 .menu{
@@ -76,6 +79,9 @@ nav{
 }
 .hero img{
     position: absolute;
+    top: 0%;
+    z-index: -1;
+    width: 100vw;
 }
 .hero div{
 
@@ -97,7 +103,10 @@ nav{
     display: flex;
     color: white;
     gap: 35px;
-    top: 90%;
+    top: 60%;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 .sub-fitur{
     background-color: #607D03;
