@@ -51,11 +51,9 @@ table {
 
 nav{
     display: flex;
-    gap: 147px;
     color: white;
     padding: 31px; 
     z-index: 99;
-    width: 100vw;
     justify-content: space-between;
     
 }
@@ -77,25 +75,33 @@ nav{
     width: 64px;
     height: 64px;
 }
-.hero img{
+
+.hero{
+    width: 100vw;
+    height: 70vh;
+    background-image: url('background\ atas.png');
     position: absolute;
     top: 0%;
     z-index: -1;
     width: 100vw;
+    background-size: cover;
 }
+
 .hero div{
 
     width: 441px;
     position: relative;
-    top: 400px;
-    left: 50%;
+    top: 275px;
+    left: 65%;
     color: white;
-    
 }
 .hero div h1{
     font-size: 36px;
     text-align: right;
     font-weight: 700;
+}
+.hero div p{
+    text-align: center;
 }
 
 .fitur{
