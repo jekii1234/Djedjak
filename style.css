@@ -105,7 +105,7 @@ nav{
 }
 
 .fitur{
-    position: absolute;
+    position: relative;
     display: flex;
     color: white;
     gap: 35px;
@@ -162,10 +162,11 @@ h1+p, p+p {
 }
 
 .container {
-  padding: 40px 80px;
+  padding: 40px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .card-wrap {
