@@ -109,7 +109,7 @@ nav{
     display: flex;
     color: white;
     gap: 35px;
-    top: 60%;
+    margin-top: 400px;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -123,6 +123,8 @@ nav{
     flex-direction: column;
     gap: 26px;
     align-items: center;
+    width: 250px;
+    height: 200px;
 
 }
 
